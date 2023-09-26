@@ -9,7 +9,7 @@
   <PropertyGroup Label="Globals">
     <ProjectGuid>{abeb5558-c92f-473e-8bdf-90f58bd3811c}</ProjectGuid>
     <Keyword>NetCoreCProj</Keyword>
-    <TargetFramework>net8.0</TargetFramework>
+    <TargetFramework>net7.0</TargetFramework>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
@@ -272,6 +272,7 @@ copy /Y "$(TargetPath)" "$(LocalDebuggerWorkingDirectory)\plugins\LiteLoader\"
     <ClInclude Include="Module\RemoteCall\Types\Value.hpp" />
     <ClInclude Include="Module\RemoteCall\Types\ValueType.hpp" />
     <ClInclude Include="Module\RemoteCall\Types\WorldPosType.hpp" />
+    <ClInclude Include="mutex.hpp" />
     <ClInclude Include="Tools\ClassTemplateHelper.hpp" />
     <ClInclude Include="Tools\clix.hpp" />
     <ClInclude Include="Tools\CallbackConverter.hpp" />
