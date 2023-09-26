@@ -192,10 +192,10 @@ bool MC::Mob::canPowerJump()
 //    NativePtr->vehicleLanded(_0, _1);
 //}
 
-void MC::Mob::AnimateHurt()
-{
-    NativePtr->animateHurt();
-}
+//void MC::Mob::AnimateHurt()
+//{
+//    NativePtr->animateHurt();
+//}
 
 bool MC::Mob::DoFireHurt(int _0)
 {
@@ -320,10 +320,10 @@ void MC::Mob::AddAdditionalSaveData(MC::CompoundTag^ _0)
 //    NativePtr->__unk_vfn_269();
 //}
 
-void MC::Mob::RemovePassenger(MC::ActorUniqueID _0, bool _1, bool _2, bool _3)
-{
-    NativePtr->_removePassenger(_0, _1, _2, _3);
-}
+//void MC::Mob::RemovePassenger(MC::ActorUniqueID _0, bool _1, bool _2, bool _3)
+//{
+//    NativePtr->_removePassenger(_0, _1, _2, _3);
+//}
 
 void MC::Mob::OnSizeUpdated()
 {
@@ -557,10 +557,10 @@ MC::AABB MC::Mob::GetAdjustedAABBForSpawnCheck(MC::AABB _0, MC::Vec3 _1)
     return NativePtr->_getAdjustedAABBForSpawnCheck(_0, _1);
 }
 
-void MC::Mob::EndJump()
-{
-    NativePtr->_endJump();
-}
+//void MC::Mob::EndJump()
+//{
+//    NativePtr->_endJump();
+//}
 
 void MC::Mob::AddSpeedModifier(MC::Mce::UUID _0, ::System::String^ _1, float _2)
 {
@@ -1079,16 +1079,16 @@ int MC::Mob::RollCounter::get()
     return __ret;
 }
 
-float MC::Mob::SwimSpeedMultiplier::get()
-{
-    auto __ret = NativePtr->getSwimSpeedMultiplier();
-    return __ret;
-}
-
-void MC::Mob::SwimSpeedMultiplier::set(float _0)
-{
-    NativePtr->setSwimSpeedMultiplier(_0);
-}
+//float MC::Mob::SwimSpeedMultiplier::get()
+//{
+//    auto __ret = NativePtr->getSwimSpeedMultiplier();
+//    return __ret;
+//}
+//
+//void MC::Mob::SwimSpeedMultiplier::set(float _0)
+//{
+//    NativePtr->setSwimSpeedMultiplier(_0);
+//}
 
 MC::ActorUniqueID MC::Mob::TargetCaptain::get()
 {

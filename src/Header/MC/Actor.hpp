@@ -478,10 +478,10 @@ namespace MC
             void set(MC::Vec2);
         }
 
-        property int ActiveEffectCount
+      /*  property int ActiveEffectCount
         {
             int get();
-        }
+        }*/
 
         property array<MC::MobEffectInstance^>^ AllEffects
         {
@@ -1176,7 +1176,7 @@ namespace MC
 
         //virtual void VehicleLanded(MC::Vec3 _0, MC::Vec3 _1);
 
-        virtual void AnimateHurt();
+        //virtual void AnimateHurt();
 
         virtual bool DoFireHurt(int _0);
 
@@ -1222,7 +1222,7 @@ namespace MC
 
         //virtual void UnkVfn269();
 
-        virtual void RemovePassenger(MC::ActorUniqueID _0, bool _1, bool _2, bool _3);
+        //virtual void RemovePassenger(MC::ActorUniqueID _0, bool _1, bool _2, bool _3);
 
         virtual void OnSizeUpdated();
 
@@ -1258,7 +1258,7 @@ namespace MC
 
         virtual void LerpMotion(MC::Vec3 _0);
 
-        virtual void PositionPassenger(MC::Actor^ _0, float _1);
+        //virtual void PositionPassenger(MC::Actor^ _0, float _1);
 
         virtual bool Intersects(MC::Vec3 _0, MC::Vec3 _1);
 
@@ -1394,13 +1394,13 @@ namespace MC
 
         float CalculateAttackDamage(MC::Actor^ _0);
 
-        bool CanAscendCurrentBlockByJumping();
+        //bool CanAscendCurrentBlockByJumping();
 
         bool CanBeginOrContinueClimbingLadder();
 
         bool CanCurrentlySwim();
 
-        bool CanDescendBlockBelowByCrouching();
+        //bool CanDescendBlockBelowByCrouching();
 
         bool CanMate(MC::Actor^ _0);
 
@@ -1500,7 +1500,7 @@ namespace MC
 
         void RemoveAllEffects();
 
-        void RemoveAllPassengers(bool _0, bool _1);
+        //void RemoveAllPassengers(bool _0, bool _1);
 
         void RemoveDefinitionGroup(::System::String^ _0);
 

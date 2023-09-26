@@ -1867,10 +1867,10 @@ namespace MC
         return ::Player::PLAYER_SLEEPING_WIDTH;
     }
 
-    float Player::PLAYER_SWIMMING_CAMERA_OFFSET::get()
-    {
-        return ::Player::PLAYER_SWIMMING_CAMERA_OFFSET;
-    }
+    //float Player::PLAYER_SWIMMING_CAMERA_OFFSET::get()
+    //{
+    //    return ::Player::PLAYER_SWIMMING_CAMERA_OFFSET;
+    //}
 
     float Player::PLAYER_SWIM_BREACH_ANGLE::get()
     {

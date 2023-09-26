@@ -115,10 +115,10 @@ namespace MC
             bool get();
         };
 
-        property bool HasCompoundTextUserData
+       /* property bool HasCompoundTextUserData
         {
             bool get();
-        };
+        };*/
 
         property bool HasCustomHoverName
         {

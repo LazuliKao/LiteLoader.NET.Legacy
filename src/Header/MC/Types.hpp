@@ -38,7 +38,7 @@ namespace MC
                 bool get();
             }
             static UUID FromString(String^ str);
-            static UUID SeedFromString(String^ str);
+            //static UUID SeedFromString(String^ str);
             static initonly UUID EMPTY = ::mce::UUID::EMPTY;
         };
 

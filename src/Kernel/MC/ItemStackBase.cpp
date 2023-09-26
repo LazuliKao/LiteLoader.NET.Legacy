@@ -375,11 +375,11 @@ bool MC::ItemStackBase::HasChargedItem::get()
     return __ret;
 }
 
-bool MC::ItemStackBase::HasCompoundTextUserData::get()
-{
-    auto __ret = NativePtr->hasCompoundTextUserData();
-    return __ret;
-}
+//bool MC::ItemStackBase::HasCompoundTextUserData::get()
+//{
+//    auto __ret = NativePtr->hasCompoundTextUserData();
+//    return __ret;
+//}
 
 bool MC::ItemStackBase::HasCustomHoverName::get()
 {

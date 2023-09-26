@@ -330,11 +330,11 @@ namespace MC
             int get();
         }
 
-        property float SwimSpeedMultiplier
+        /*property float SwimSpeedMultiplier
         {
             float get();
             void set(float);
-        }
+        }*/
 
         property MC::ActorUniqueID TargetCaptain
         {
@@ -460,7 +460,7 @@ namespace MC
 
         //virtual void VehicleLanded(MC::Vec3 _0, MC::Vec3 _1) override;
 
-        virtual void AnimateHurt() override;
+        //virtual void AnimateHurt() override;
 
         virtual bool DoFireHurt(int _0) override;
 
@@ -506,7 +506,7 @@ namespace MC
 
         //virtual void UnkVfn269() override;
 
-        virtual void RemovePassenger(MC::ActorUniqueID _0, bool _1, bool _2, bool _3) override;
+        //virtual void RemovePassenger(MC::ActorUniqueID _0, bool _1, bool _2, bool _3) override;
 
         virtual void OnSizeUpdated() override;
 
@@ -592,7 +592,7 @@ namespace MC
 
         virtual MC::AABB GetAdjustedAABBForSpawnCheck(MC::AABB _0, MC::Vec3 _1);
 
-        void EndJump();
+        //void EndJump();
 
         void AddSpeedModifier(MC::Mce::UUID _0, ::System::String^ _1, float _2);
 

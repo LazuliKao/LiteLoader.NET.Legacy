@@ -32,10 +32,10 @@ namespace MC
             return ::mce::UUID::fromString(marshalString(str));
         }
 
-        inline UUID UUID::SeedFromString(String^ str)
+       /* inline UUID UUID::SeedFromString(String^ str)
         {
             return ::mce::UUID::seedFromString(marshalString(str));
-        }
+        }*/
 
         inline bool UUID::IsEmpty::get()
         {

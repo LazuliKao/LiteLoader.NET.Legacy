@@ -56,10 +56,10 @@ namespace MC
         static initonly BlockPos ONE = ::BlockPos::ONE;
         static initonly BlockPos ZERO = ::BlockPos::ZERO;
     public:
-        void BindType() {
-            pin_ptr<BlockPos> p = this;
-            ((::BlockPos*)p)->bindType();
-        }
+		/*  void BindType() {
+			  pin_ptr<BlockPos> p = this;
+			  ((::BlockPos*)p)->bindType();
+		  }*/
 
         property array<BlockPos>^ Neighbors {
             array<BlockPos>^ get() {

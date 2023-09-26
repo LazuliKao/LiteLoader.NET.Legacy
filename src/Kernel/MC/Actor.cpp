@@ -424,10 +424,10 @@ void MC::Actor::OnFailedTame()
 //    NativePtr->exitVehicle(_0, _1);
 //}
 
-void MC::Actor::AnimateHurt()
-{
-    NativePtr->animateHurt();
-}
+//void MC::Actor::AnimateHurt()
+//{
+//	NativePtr->animateHurt();
+//}
 
 bool MC::Actor::DoFireHurt(int _0)
 {
@@ -552,10 +552,10 @@ void MC::Actor::AddAdditionalSaveData(MC::CompoundTag^ _0)
 //    NativePtr->__unk_vfn_269();
 //}
 
-void MC::Actor::RemovePassenger(MC::ActorUniqueID _0, bool _1, bool _2, bool _3)
-{
-    NativePtr->_removePassenger(_0, _1, _2, _3);
-}
+//void MC::Actor::RemovePassenger(MC::ActorUniqueID _0, bool _1, bool _2, bool _3)
+//{
+//    NativePtr->_removePassenger(_0, _1, _2, _3);
+//}
 
 void MC::Actor::OnSizeUpdated()
 {
@@ -645,10 +645,10 @@ void MC::Actor::LerpMotion(MC::Vec3 _0)
     NativePtr->lerpMotion(_0);
 }
 
-void MC::Actor::PositionPassenger(MC::Actor^ _0, float _1)
-{
-    NativePtr->positionPassenger(_0, _1);
-}
+//void MC::Actor::PositionPassenger(MC::Actor^ _0, float _1)
+//{
+//    NativePtr->positionPassenger(_0, _1);
+//}
 
 bool MC::Actor::Intersects(MC::Vec3 _0, MC::Vec3 _1)
 {
@@ -1062,11 +1062,11 @@ float MC::Actor::CalculateAttackDamage(MC::Actor^ _0)
     return __ret;
 }
 
-bool MC::Actor::CanAscendCurrentBlockByJumping()
-{
-    auto __ret = NativePtr->canAscendCurrentBlockByJumping();
-    return __ret;
-}
+//bool MC::Actor::CanAscendCurrentBlockByJumping()
+//{
+//    auto __ret = NativePtr->canAscendCurrentBlockByJumping();
+//    return __ret;
+//}
 
 bool MC::Actor::CanBeginOrContinueClimbingLadder()
 {
@@ -1080,11 +1080,11 @@ bool MC::Actor::CanCurrentlySwim()
     return __ret;
 }
 
-bool MC::Actor::CanDescendBlockBelowByCrouching()
-{
-    auto __ret = NativePtr->canDescendBlockBelowByCrouching();
-    return __ret;
-}
+//bool MC::Actor::CanDescendBlockBelowByCrouching()
+//{
+//    auto __ret = NativePtr->canDescendBlockBelowByCrouching();
+//    return __ret;
+//}
 
 bool MC::Actor::CanMate(MC::Actor^ _0)
 {
@@ -1393,10 +1393,10 @@ void MC::Actor::RemoveAllEffects()
     NativePtr->removeAllEffects();
 }
 
-void MC::Actor::RemoveAllPassengers(bool _0, bool _1)
-{
-    NativePtr->removeAllPassengers(_0, _1);
-}
+//void MC::Actor::RemoveAllPassengers(bool _0, bool _1)
+//{
+//    NativePtr->removeAllPassengers(_0, _1);
+//}
 
 void MC::Actor::RemoveDefinitionGroup(::System::String^ _0)
 {
@@ -2168,11 +2168,11 @@ void MC::Actor::AABBDim::set(MC::Vec2 _0)
     NativePtr->setAABBDim(_0);
 }
 
-int MC::Actor::ActiveEffectCount::get()
-{
-    auto __ret = NativePtr->getActiveEffectCount();
-    return __ret;
-}
+//int MC::Actor::ActiveEffectCount::get()
+//{
+//    auto __ret = NativePtr->getActiveEffectCount();
+//    return __ret;
+//}
 
 array<MC::MobEffectInstance^>^ MC::Actor::AllEffects::get()
 {

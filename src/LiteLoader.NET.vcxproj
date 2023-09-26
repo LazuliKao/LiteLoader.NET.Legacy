@@ -237,12 +237,6 @@ copy /Y "$(TargetPath)" "$(LocalDebuggerWorkingDirectory)\plugins\LiteLoader\"
     <ClInclude Include="Module\Core\Std\vector\vector`1.hpp" />
     <ClInclude Include="Module\Core\Std\vector\_Vector_base.hpp" />
     <ClInclude Include="Module\Core\Std\wstring.hpp" />
-    <ClInclude Include="Module\DynamicCommand\DynamicCommand.hpp" />
-    <ClInclude Include="Module\DynamicCommand\DynamicCommandAttributes.hpp" />
-    <ClInclude Include="Module\DynamicCommand\DynamicCommandHelper.hpp" />
-    <ClInclude Include="Module\DynamicCommand\DynamicCommandInstance.hpp" />
-    <ClInclude Include="Module\DynamicCommand\ICommand.hpp" />
-    <ClInclude Include="Module\DynamicCommand\ParameterData.hpp" />
     <ClInclude Include="Module\Interop\OriginalData\Attributes\AccessTypeAttribute.hpp" />
     <ClInclude Include="Module\Interop\OriginalData\Attributes\FakeSymbolAttribute.hpp" />
     <ClInclude Include="Module\Interop\OriginalData\Attributes\RVAAttribute.hpp" />
@@ -410,12 +404,6 @@ copy /Y "$(TargetPath)" "$(LocalDebuggerWorkingDirectory)\plugins\LiteLoader\"
     <ClCompile Include="Module\Core\Std\vector\vector`1.cpp" />
     <ClCompile Include="Module\Core\Std\vector\_Vector_base.cpp" />
     <ClCompile Include="Module\Core\Std\wstring.cpp" />
-    <ClCompile Include="Module\DynamicCommand\DynamicCommand.cpp" />
-    <ClCompile Include="Module\DynamicCommand\DynamicCommandHelper.cpp" />
-    <ClCompile Include="Module\DynamicCommand\DynamicCommandInstance.cpp" />
-    <ClCompile Include="Module\DynamicCommand\ICommand.cpp" />
-    <ClCompile Include="Module\DynamicCommand\ParameterData.cpp" />
-    <ClCompile Include="Module\DynamicCommand\RegisterCommand.cpp" />
     <ClCompile Include="Module\Interop\OriginalData\Attributes\AccessTypeAttribute.cpp" />
     <ClCompile Include="Module\Interop\OriginalData\Attributes\FakeSymbolAttribute.cpp" />
     <ClCompile Include="Module\Interop\OriginalData\Attributes\RVAAttribute.cpp" />

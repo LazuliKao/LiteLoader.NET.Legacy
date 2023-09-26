@@ -896,10 +896,10 @@ namespace MC
             float get();
         }
 
-        static property float PLAYER_SWIMMING_CAMERA_OFFSET
+     /*   static property float PLAYER_SWIMMING_CAMERA_OFFSET
         {
             float get();
-        }
+        }*/
 
         static property float PLAYER_SWIM_BREACH_ANGLE
         {
