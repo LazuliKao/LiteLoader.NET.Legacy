@@ -187,10 +187,10 @@ bool MC::Mob::canPowerJump()
     return __ret;
 }
 
-void MC::Mob::VehicleLanded(MC::Vec3 _0, MC::Vec3 _1)
-{
-    NativePtr->vehicleLanded(_0, _1);
-}
+//void MC::Mob::VehicleLanded(MC::Vec3 _0, MC::Vec3 _1)
+//{
+//    NativePtr->vehicleLanded(_0, _1);
+//}
 
 void MC::Mob::AnimateHurt()
 {
@@ -353,15 +353,15 @@ float MC::Mob::GetMeleeWeaponDamageBonus(MC::Mob^ _0)
     return __ret;
 }
 
-void MC::Mob::Travel(float _0, float _1, float _2, bool _3)
-{
-    NativePtr->travel(_0, _1, _2, _3);
-}
+//void MC::Mob::Travel(float _0, float _1, float _2, bool _3)
+//{
+//    NativePtr->travel(_0, _1, _2, _3);
+//}
 
-void MC::Mob::ApplyFinalFriction(float _0, bool _1)
-{
-    NativePtr->applyFinalFriction(_0, _1);
-}
+//void MC::Mob::ApplyFinalFriction(float _0, bool _1)
+//{
+//    NativePtr->applyFinalFriction(_0, _1);
+//}
 
 void MC::Mob::AiStep()
 {
@@ -497,10 +497,10 @@ bool MC::Mob::CanExistWhenDisallowMob()
 //    NativePtr->__unk_vfn_345();
 //}
 
-void MC::Mob::AscendLadder()
-{
-    NativePtr->ascendLadder();
-}
+//void MC::Mob::AscendLadder()
+//{
+//    NativePtr->ascendLadder();
+//}
 
 void MC::Mob::AscendBlockByJumping()
 {
@@ -666,12 +666,6 @@ bool MC::Mob::IsRuntimePredictedMovementEnabled::get()
 float MC::Mob::YawSpeedInDegreesPerSecond::get()
 {
     auto __ret = NativePtr->getYawSpeedInDegreesPerSecond();
-    return __ret;
-}
-
-float MC::Mob::CameraOffset::get()
-{
-    auto __ret = NativePtr->getCameraOffset();
     return __ret;
 }
 
@@ -851,11 +845,11 @@ int MC::Mob::MeleeKnockbackBonus::get()
     return __ret;
 }
 
-bool MC::Mob::IsLookingAtAnEntity::get()
-{
-    auto __ret = NativePtr->isLookingAtAnEntity();
-    return __ret;
-}
+//bool MC::Mob::IsLookingAtAnEntity::get()
+//{
+//    auto __ret = NativePtr->isLookingAtAnEntity();
+//    return __ret;
+//}
 
 int MC::Mob::ItemUseDuration::get()
 {

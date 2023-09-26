@@ -9,12 +9,12 @@ namespace MC
 {
 inline Block ^ Block::Create(const String ^ str, unsigned short tileData)
 {
-    return gcnew Block(::Block::create(marshalString((String ^) str), tileData));
+    return gcnew Block((::Block*)::Block::create(marshalString((String ^) str), tileData));
 }
 
 inline Block ^ Block::Create(CompoundTag ^ nbt)
 {
-    return gcnew Block(::Block::create(nbt->NativePtr));
+    return gcnew Block((::Block*)::Block::create(nbt->NativePtr));
 }
 
 inline HashedString ^ Block::Name::get()
@@ -35,11 +35,6 @@ inline unsigned short Block::TileData::get()
 inline CompoundTag ^ Block::Nbt::get()
 {
     return gcnew CompoundTag(NativePtr->getNbt().release(), true);
-}
-
-inline void Block::Nbt::set(CompoundTag ^ nbt)
-{
-    NativePtr->setNbt(nbt->NativePtr);
 }
 } // namespace MC
 
@@ -115,11 +110,6 @@ void MC::Block::GetDebugText(::System::Collections::Generic::IList<::String^> ^ 
     }
     auto __arg0 = _tmp_0;
     NativePtr->getDebugText(__arg0, _1);
-}
-
-MC::AABB MC::Block::GetVisualShape(MC::AABB _0, bool _1)
-{
-    return NativePtr->getVisualShape((::AABB)_0, _1);
 }
 
 bool MC::Block::HasTag(unsigned long long _0)

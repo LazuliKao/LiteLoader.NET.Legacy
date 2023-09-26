@@ -496,8 +496,6 @@ namespace MC
 
         //virtual void UnkVfn68() override;
 
-        virtual float GetCameraOffset();
-
         //virtual void UnkVfn82() override;
 
         //bool CanInteractWithOtherEntitiesInGame() override;
@@ -536,7 +534,7 @@ namespace MC
 
         virtual bool isJumping();
 
-        void VehicleLanded(Vec3 _0, Vec3 _1) override;
+        //void VehicleLanded(Vec3 _0, Vec3 _1) override;
 
         void Feed(int _0) override;
 
@@ -620,7 +618,7 @@ namespace MC
 
         virtual void SetSpeed(float _0);
 
-        void Travel(float _0, float _1, float _2, bool) override;
+        //void Travel(float _0, float _1, float _2, bool) override;
 
         void AiStep() override;
 
@@ -754,7 +752,7 @@ namespace MC
 
         virtual void OnMovePlayerPacketNormal(Vec3 _0, Vec2 _1, float _2);
 
-        void ApplyExhaustion(Vec3 _0);
+        //void ApplyExhaustion(Vec3 _0);
 
         bool CanBeSeenOnMap();
 
@@ -878,15 +876,15 @@ namespace MC
             float get();
         }
 
-        static property float PLAYER_GLIDING_CAMERA_OFFSET
-        {
-            float get();
-        }
+		/*  static property float PLAYER_GLIDING_CAMERA_OFFSET
+		  {
+			  float get();
+		  }
 
-        static property float PLAYER_SLEEPING_CAMERA_OFFSET
-        {
-            float get();
-        }
+		  static property float PLAYER_SLEEPING_CAMERA_OFFSET
+		  {
+			  float get();
+		  }*/
 
         static property float PLAYER_SLEEPING_HEIGHT
         {

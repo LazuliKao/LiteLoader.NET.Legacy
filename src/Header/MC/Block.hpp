@@ -22,7 +22,7 @@ public:
     inline static Block ^ Create(CompoundTag ^ nbt);
 
     property HashedString^ Name { HashedString ^ get(); };
-    property CompoundTag ^ Nbt { CompoundTag ^ get(); void set(CompoundTag ^value); };
+    property CompoundTag ^ Nbt { CompoundTag ^ get(); };
 
     property int Id
     {
@@ -272,8 +272,6 @@ public:
     bool CanInstatick();
 
     void GetDebugText(::System::Collections::Generic::IList<::String^> ^ _0, MC::BlockPos _1);
-
-    MC::AABB GetVisualShape(MC::AABB _0, bool _1);
 
     bool HasTag(unsigned long long _0);
 

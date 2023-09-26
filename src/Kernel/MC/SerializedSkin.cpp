@@ -32,9 +32,9 @@ namespace MC
         NativePtr->updateGeometryName();
     }
 
-    bool SerializedSkin::Read(ReadOnlyBinaryStream^ stream)
+    void SerializedSkin::Read(ReadOnlyBinaryStream^ stream)
     {
-        return NativePtr->read(stream);
+        NativePtr->read(stream);
     }
 
     void SerializedSkin::Write(BinaryStream^ stream)

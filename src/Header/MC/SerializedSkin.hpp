@@ -18,7 +18,7 @@ namespace MC
         property bool IsTrustedSkin { bool get(); void set(bool value); }
 
         void UpdateGeometryName();
-        bool Read(ReadOnlyBinaryStream^ stream);
+        void Read(ReadOnlyBinaryStream^ stream);
         void Write(BinaryStream^ stream);
     };
 }

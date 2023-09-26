@@ -33,11 +33,6 @@ namespace MC
             float get();
         }
 
-        property float CameraOffset
-        {
-            float get();
-        }
-
         property bool IsImmobile
         {
             bool get();
@@ -168,10 +163,10 @@ namespace MC
             int get();
         }
 
-        property bool IsLookingAtAnEntity
+      /*  property bool IsLookingAtAnEntity
         {
             bool get();
-        }
+        }*/
 
         property int ItemUseDuration
         {
@@ -463,7 +458,7 @@ namespace MC
 
         virtual bool canPowerJump();
 
-        virtual void VehicleLanded(MC::Vec3 _0, MC::Vec3 _1) override;
+        //virtual void VehicleLanded(MC::Vec3 _0, MC::Vec3 _1) override;
 
         virtual void AnimateHurt() override;
 
@@ -523,9 +518,9 @@ namespace MC
 
         virtual float GetMeleeWeaponDamageBonus(MC::Mob^ _0);
 
-        virtual void Travel(float _0, float _1, float _2, bool);
+        //virtual void Travel(float _0, float _1, float _2, bool);
 
-        virtual void ApplyFinalFriction(float _0, bool _1);
+        //virtual void ApplyFinalFriction(float _0, bool _1);
 
         virtual void AiStep();
 
@@ -573,7 +568,7 @@ namespace MC
 
         //virtual void UnkVfn345();
 
-        virtual void AscendLadder();
+        //virtual void AscendLadder();
 
         virtual void AscendBlockByJumping();
 
